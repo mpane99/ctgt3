@@ -1,0 +1,23 @@
+{
+  "configs": [
+    {
+      "name": "ctgt",
+      "template": "netcore_microservice",
+      "pipeline_group": "test222",
+      "parameters": [
+        {
+          "name": "SERVICE_NAME",
+          "value": "ctgt"
+        },
+        {
+           "name": "BRANCH_NAME",
+           "value": "master"
+        },
+        {
+           "name": "NETCORE_PROJECT_NAME",
+           "value": "Deluxe.MediaCloud.ctgt"
+        }
+      ]
+    }
+  ]
+}
